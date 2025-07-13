@@ -1,6 +1,5 @@
 {
   "name": "sandbox-template",
-  "module": "index.ts",
   "type": "module",
   "private": true,
   "dependencies": {
@@ -11,11 +10,5 @@
     "@effect/cluster": "latest",
     "@effect/rpc": "latest",
     "effect": "latest"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
   }
 }
