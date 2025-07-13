@@ -1,0 +1,21 @@
+{
+  "name": "sandbox-template",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@effect/experimental": "latest",
+    "@effect/platform": "latest",
+    "@effect/platform-node": "latest",
+    "@effect/cli": "latest",
+    "@effect/cluster": "latest",
+    "@effect/rpc": "latest",
+    "effect": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
